@@ -1,0 +1,57 @@
+/* Add this to the CSS file that styles your SignupForm component */
+
+/* This centers the form container within the main area */
+.signup-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Adjust width as necessary */
+    max-width: 400px; /* Adjust maximum width as necessary */
+    margin: auto; /* This centers the form container horizontally */
+  }
+  
+  /* This centers the content of the entire page vertically */
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Additional styles for the form elements */
+  .signup-form-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 20px); /* This assumes the padding is 10px on each side */
+  }
+  
+  .signup-form-container button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .signup-form-container button:hover {
+    background-color: #5a5c69;
+  }
+  
+  .signup-form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form-container p {
+    text-align: center;
+  }
+  

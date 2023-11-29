@@ -1,0 +1,46 @@
+.otp-verification-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .otp-verification-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .otp-verification-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .otp-verification-container p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5a5c69;
+  }
+  
+  .otp-verification-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .otp-verification-container button {
+    padding: 10px;
+    background-color: #1cc88a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .otp-verification-container button:hover {
+    background-color: #17a673;
+  }
+  
